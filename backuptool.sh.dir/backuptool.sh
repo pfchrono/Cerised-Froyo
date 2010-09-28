@@ -5,7 +5,7 @@
 
 C=/tmp/backupdir
 S=/system
-V=CyanogenMod-6
+V=Cerised-Froyo-v2
 
 PROCEED=1;
 
