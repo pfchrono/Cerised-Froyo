@@ -1,0 +1,4 @@
+modver=Cerised
+post-build=google/passion/passion/mahimahi:2.2/FRF91/43546:user/release-keys
+post-timestamp=0
+pre-device=desirec
