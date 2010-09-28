@@ -12,7 +12,6 @@ set_perm_recursive 1000 1000 0771 0644 DATA:local
 
 
 show_progress 0.500000 40
-copy_dir PACKAGE:recovery SYSTEM:
 copy_dir PACKAGE:system SYSTEM:
 symlink busybox SYSTEM:xbin/[
 symlink busybox SYSTEM:xbin/[[
@@ -234,7 +233,6 @@ set_perm 1014 2000 0550 SYSTEM:etc/dhcpcd/dhcpcd-run-hooks
 set_perm_recursive 0 2000 0755 0750 SYSTEM:etc/init.d
 set_perm 0 0 0755 SYSTEM:etc/init.d
 set_perm 0 2000 0550 SYSTEM:etc/init.goldfish.sh
-set_perm 0 0 0544 SYSTEM:etc/install-recovery.sh
 set_perm_recursive 0 0 0755 0555 SYSTEM:etc/ppp
 set_perm_recursive 0 2000 0755 0755 SYSTEM:xbin
 set_perm 0 0 06755 SYSTEM:xbin/librank

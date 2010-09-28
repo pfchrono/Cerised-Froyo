@@ -1,6 +1,8 @@
 #!/system/bin/sh
-# call a userinit.sh script if it's present on the sdcard
+# Call to lights.sh
+busybox sh /etc/lights.sh
 
+# call a userinit.sh script if it's present on the sdcard
 if [ "$SD_EXT_DIRECTORY" = "" ];
 then
     SD_EXT_DIRECTORY=/sd-ext;
